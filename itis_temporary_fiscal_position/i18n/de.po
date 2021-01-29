@@ -1,0 +1,165 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* itis_temporary_fiscal_position
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-23 05:09+0000\n"
+"PO-Revision-Date: 2020-09-23 05:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.actions.server,name:itis_temporary_fiscal_position.action_apply_old_tax_invoice
+msgid "Apply old tax on invoice"
+msgstr "Reguläre Steuer auf Rechnung anwenden"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.actions.server,name:itis_temporary_fiscal_position.action_apply_old_tax_purchase
+msgid "Apply old tax on purchase"
+msgstr "Reguläre Steuer auf Bestellung anwenden"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.actions.server,name:itis_temporary_fiscal_position.action_apply_old_tax_sale
+msgid "Apply old tax on sales"
+msgstr "Reguläre Steuer auf Angebot/Auftrag anwenden"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.actions.server,name:itis_temporary_fiscal_position.action_apply_fiscal_position_invoice
+msgid "Apply temporary fiscal position on invoice"
+msgstr "Temporäre Steuerzuordnung auf RG anwenden"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.actions.server,name:itis_temporary_fiscal_position.action_apply_fiscal_position_purchase
+msgid "Apply temporary fiscal position on purchase"
+msgstr "Temporäre Steuerzuordnung auf Bestellung anwenden"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.actions.server,name:itis_temporary_fiscal_position.action_apply_fiscal_position_sale
+msgid "Apply temporary fiscal position on sales"
+msgstr "Temporäre Steuerzuordnung auf Angebot"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model,name:itis_temporary_fiscal_position.model_res_company
+msgid "Companies"
+msgstr "Unternehmen"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model,name:itis_temporary_fiscal_position.model_res_config_settings
+msgid "Config Settings"
+msgstr "Konfigurationseinstellungen"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model,name:itis_temporary_fiscal_position.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model.fields,field_description:itis_temporary_fiscal_position.field_account_fiscal_position__default
+msgid "Default temp. fiscal position"
+msgstr "Default temp. Steuerzuordnung"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model.fields,field_description:itis_temporary_fiscal_position.field_res_company__fiscal_position_date_stop
+#: model:ir.model.fields,field_description:itis_temporary_fiscal_position.field_res_config_settings__fiscal_position_date_stop
+msgid "End date"
+msgstr "Enddatum"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model,name:itis_temporary_fiscal_position.model_account_fiscal_position
+msgid "Fiscal Position"
+msgstr "Steuerzuordnung"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model,name:itis_temporary_fiscal_position.model_account_move
+msgid "Journal Entries"
+msgstr "Buchungssätze"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model,name:itis_temporary_fiscal_position.model_account_move_line
+msgid "Journal Item"
+msgstr "Buchungszeile"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model,name:itis_temporary_fiscal_position.model_purchase_order
+msgid "Purchase Order"
+msgstr "Beschaffungsauftrag"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model,name:itis_temporary_fiscal_position.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Bestellposition"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.actions.server,name:itis_temporary_fiscal_position.action_remove_new_fiscal_position_contact
+msgid "Remove temporary fiscal position on contact"
+msgstr "Temp. Steuerzuordnung am Kontakt löschen"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model,name:itis_temporary_fiscal_position.model_sale_order
+msgid "Sales Order"
+msgstr "Verkaufsauftrag "
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model,name:itis_temporary_fiscal_position.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Kundenauftragszeile"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.actions.server,name:itis_temporary_fiscal_position.action_set_new_fiscal_position_contact
+msgid "Set temporary fiscal position on contact"
+msgstr "Temporäre Steuerzuordnung am Kontakt setzen"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model.fields,field_description:itis_temporary_fiscal_position.field_res_company__fiscal_position_date_start
+#: model:ir.model.fields,field_description:itis_temporary_fiscal_position.field_res_config_settings__fiscal_position_date_start
+msgid "Start date"
+msgstr "Anfangsdatum"
+
+#. module: itis_temporary_fiscal_position
+#: model:ir.model.fields,field_description:itis_temporary_fiscal_position.field_account_fiscal_position__related_fiscal_position_id
+#: model:ir.model.fields,field_description:itis_temporary_fiscal_position.field_account_move__new_fiscal_position_id
+#: model:ir.model.fields,field_description:itis_temporary_fiscal_position.field_account_move_line__new_fiscal_position_id
+#: model:ir.model.fields,field_description:itis_temporary_fiscal_position.field_purchase_order__new_fiscal_position_id
+#: model:ir.model.fields,field_description:itis_temporary_fiscal_position.field_res_partner__new_property_account_position_id
+#: model:ir.model.fields,field_description:itis_temporary_fiscal_position.field_res_users__new_property_account_position_id
+#: model:ir.model.fields,field_description:itis_temporary_fiscal_position.field_sale_order__new_fiscal_position_id
+#: model_terms:ir.ui.view,arch_db:itis_temporary_fiscal_position.res_config_settings_view_form
+msgid "Temporary fiscal position"
+msgstr "Temporäre Steuerzuordnung"
+
+#. module: itis_temporary_fiscal_position
+#: model_terms:ir.ui.view,arch_db:itis_temporary_fiscal_position.res_config_settings_view_form
+msgid ""
+"The temporary fiscal position will be used for creation of new documents "
+"within this time-period only."
+msgstr "Die temporäre Steuerzuordnung wird für die Erstellung neuer Belege innerhalb des definierten Zeitraums angewendet. Dies betrifft nur die Neuanlage."
+
+#. module: itis_temporary_fiscal_position
+#: code:addons/itis_temporary_fiscal_position/models/account_move.py:0
+#: code:addons/itis_temporary_fiscal_position/models/purchase.py:0
+#: code:addons/itis_temporary_fiscal_position/models/sale.py:0
+#, python-format
+msgid "You can only apply old tax on draft records."
+msgstr "Die Anpassung der Steuer kann nur auf Belegen im Status Entwurf vorgenommen werden."
+
+#. module: itis_temporary_fiscal_position
+#: code:addons/itis_temporary_fiscal_position/models/account_move.py:0
+#: code:addons/itis_temporary_fiscal_position/models/purchase.py:0
+#: code:addons/itis_temporary_fiscal_position/models/sale.py:0
+#, python-format
+msgid "You can only apply temporary fiscal position on draft records."
+msgstr "Die Anpassung der Steuer kann nur auf Belegen im Status Entwurf vorgenommen werden."
+
+#. module: itis_temporary_fiscal_position
+#. openerp-web
+#: code:addons/itis_temporary_fiscal_position/static/src/xml/base.xml:0
+#, python-format
+msgid "_blank"
+msgstr ""

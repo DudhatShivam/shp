@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="action_set_new_fiscal_position_contact" model="ir.actions.server">
+            <field name="name">Set temporary fiscal position on contact</field>
+            <field name="model_id" ref="base.model_res_partner"/>
+            <field name="state">code</field>
+            <field name="code">
+model.set_new_fiscal_position()
+            </field>
+        </record>
+
+        <record id="action_remove_new_fiscal_position_contact" model="ir.actions.server">
+            <field name="name">Remove temporary fiscal position on contact</field>
+            <field name="model_id" ref="base.model_res_partner"/>
+            <field name="state">code</field>
+            <field name="code">
+model.remove_new_fiscal_position()
+            </field>
+        </record>
+
+        <record id="action_apply_fiscal_position_sale" model="ir.actions.server">
+            <field name="name">Apply temporary fiscal position on sales</field>
+            <field name="model_id" ref="sale.model_sale_order"/>
+            <field name="state">code</field>
+            <field name="code">
+model.apply_fiscal_position()
+            </field>
+        </record>
+
+        <record id="action_apply_old_tax_sale" model="ir.actions.server">
+            <field name="name">Apply old tax on sales</field>
+            <field name="model_id" ref="sale.model_sale_order"/>
+            <field name="state">code</field>
+            <field name="code">
+model.apply_old_tax()
+            </field>
+        </record>
+
+        <record id="action_apply_fiscal_position_purchase" model="ir.actions.server">
+            <field name="name">Apply temporary fiscal position on purchase</field>
+            <field name="model_id" ref="purchase.model_purchase_order"/>
+            <field name="state">code</field>
+            <field name="code">
+model.apply_fiscal_position()
+            </field>
+        </record>
+
+        <record id="action_apply_old_tax_purchase" model="ir.actions.server">
+            <field name="name">Apply old tax on purchase</field>
+            <field name="model_id" ref="purchase.model_purchase_order"/>
+            <field name="state">code</field>
+            <field name="code">
+model.apply_old_tax()
+            </field>
+        </record>
+
+        <record id="action_apply_fiscal_position_invoice" model="ir.actions.server">
+            <field name="name">Apply temporary fiscal position on invoice</field>
+            <field name="model_id" ref="account.model_account_move"/>
+            <field name="state">code</field>
+            <field name="code">
+model.apply_fiscal_position()
+            </field>
+        </record>
+
+        <record id="action_apply_old_tax_invoice" model="ir.actions.server">
+            <field name="name">Apply old tax on invoice</field>
+            <field name="model_id" ref="account.model_account_move"/>
+            <field name="state">code</field>
+            <field name="code">
+model.apply_old_tax()
+            </field>
+        </record>
+
+    </data>
+</odoo>

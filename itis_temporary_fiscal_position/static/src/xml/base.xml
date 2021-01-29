@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+	<t t-extend="Sidebar">
+        <t t-jquery="a[role='menuitem']" t-operation="attributes">
+	        <attribute name="target">_blank</attribute>
+	    </t>
+	</t>
+</templates>
